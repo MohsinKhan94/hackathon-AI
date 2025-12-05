@@ -1,0 +1,25 @@
+{
+  "name": "auth-server",
+  "version": "1.0.0",
+  "description": "Authentication server using Better Auth",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsx watch index.ts",
+    "start": "tsx index.ts",
+    "migrate": "better-auth migrate"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.6",
+    "better-auth": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "hono": "^4.0.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.0",
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

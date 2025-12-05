@@ -1,0 +1,33 @@
+# Node.js
+node_modules
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.venv
+venv
+.env
+.env.*
+.mypy_cache/
+
+# VSCode
+.vscode/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Docusaurus (already in my-website/.gitignore but good to have globally if moved)
+.docusaurus/
+build/
+.cache-loader/
+
+# Others
+tmp/
